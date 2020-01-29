@@ -1,2 +1,17 @@
+irb
+hash = {key1: "value1", key2:
+"value2"}
+
+hash.each.do |key, value|
+  puts "#{key} : #{value}"
+end
+
+key1: value1
+key2: value2
+ => {:key1=>"value1", :key2=>"value2"}
+ 
+end
+
+
 --color
 --require spec_helper
