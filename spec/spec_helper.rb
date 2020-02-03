@@ -13,3 +13,6 @@ RSpec.configure do |config|
     mocks.verify_partial_doubles = true
   end
 end
+
+## BONUS ##
+## Change "xit" to "it" in the test block to enable
